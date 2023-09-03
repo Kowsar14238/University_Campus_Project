@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- font style link from google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ee3d15a0a2.js" crossorigin="anonymous"></script>
+
+    </head>
+    <!--  -->
+
+    <body>
+
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <!-- Taken from font awesome 4 icons (closing bar) [js] -->
+                    <i class="fa fa-times" onclick="hideMenu()"></i> 
+                    <ul>
+                        <li class="active"> 
+                            <a href="./index.html">HOME</a>
+                        </li>
+                        <li> 
+                            <a href="./about.html">ABOUT</a>
+                        </li>
+                        <li> 
+                            <a href="./course.html">COURSE</a>
+                        </li>
+                        <li> 
+                            <a href="./blog.html">BLOG</a>
+                        </li>
+                        <li> 
+                            <a href="./contact.html">CONTACT</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <!-- Taken from font awesome 4 icons (menu bar) [js] -->
+                <i class="fa fa-reorder" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-book">
+                <h1>World's Biggest University</h1>
+                <p>Making website is now one of the easiest thing in the world. You 
+                    just need to learn HTML, CSS, <br> Javascript and you are good to go.
+                </p>
+                <a href="" class="hero-btn">Visit us to know more</a>
+            </div>
+
+        </section>
+
+        <!---- Course ---->
+        <section class="course">
+            
+            <h1>Course we offer</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nulla non autem ipsam rem iusto aut ex quam cum repellat illo porro maxime, 
+                laborum aperiam, cupiditate culpa consequatur incidunt optio.</p>
+
+            <div class="row">
+                <div class="course-colm">
+                    <h3>Intermediate</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo a praesentium esse, adipisci cumque illo quaerat, 
+                        earum amet voluptates voluptas nisi cum tempora! Rerum adipisci aliquam consectetur omnis corporis ea?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis beatae molestias accusamus enim distinctio et hic ipsum. 
+                        Optio odit perspiciatis repellendus molestias neque quia quidem eaque, voluptates magni libero dolores.
+                    </p>
+                </div>
+                <div class="course-colm">
+                    <h3>Degree</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo a praesentium esse, adipisci cumque illo quaerat, earum amet voluptates 
+                        voluptas nisi cum tempora! Rerum adipisci aliquam consectetur omnis corporis ea? Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Reiciendis beatae molestias accusamus enim distinctio et hic ipsum. Optio odit perspiciatis repellendus molestias neque quia quidem eaque, 
+                        voluptates magni libero dolores.
+                    </p>
+                </div>
+                <div class="course-colm">
+                    <h3>Post Graduation</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo a praesentium esse, adipisci cumque illo quaerat, earum amet voluptates 
+                        voluptas nisi cum tempora! Rerum adipisci aliquam consectetur omnis corporis ea? Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Reiciendis beatae molestias accusamus enim distinctio et hic ipsum. Optio odit perspiciatis repellendus molestias neque quia quidem eaque, 
+                        voluptates magni libero dolores.
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+
+        <!---- Campus ---->
+        <section class="campus">
+
+            <h1>Our Global Campus</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quibusdam officia ipsam deleniti reiciendis minus nostrum illo obcaecati maxime 
+                voluptate corporis unde aliquam magni fugit iste quis, dolor voluptatibus labore?
+            </p>
+
+            <div class="row">
+                <div class="campus-colm">
+                    <img src="images/london.png" alt="">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="campus-colm">
+                    <img src="images/newyork.png" alt="">
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </div>
+                <div class="campus-colm">
+                    <img src="images/washington.png" alt="">
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!---- Facilities ---->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facilis tenetur modi repellendus iure hic a voluptates. 
+                Quia hic debitis aliquid, perspiciatis voluptates suscipit id officiis quam nulla nemo nobis!
+            </p>
+
+            <div class="row">
+
+                <div class="facilities-colm">
+                    <img src="images/library.png" alt="">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, ex! Quidem sit sapiente ducimus asperiores explicabo debitis minima 
+                        repellat deleniti distinctio fuga. Eos incidunt aliquid minus deleniti fugiat obcaecati tenetur quaerat alias doloremque, sit nihil 
+                        exercitationem dolor earum distinctio quod illo impedit repellat molestias aperiam error aut dolorum? Eius, sed.
+                    </p>
+                </div>
+                <div class="facilities-colm">
+                    <img src="images/basketball.png" alt="">
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, ex! Quidem sit sapiente ducimus asperiores explicabo debitis minima 
+                        repellat deleniti distinctio fuga. Eos incidunt aliquid minus deleniti fugiat obcaecati tenetur quaerat alias doloremque, sit nihil 
+                        exercitationem dolor earum distinctio quod illo impedit repellat molestias aperiam error aut dolorum? Eius, sed.
+                    </p>
+                </div>
+                <div class="facilities-colm">
+                    <img src="images/cafeteria.png" alt="">
+                    <h3>Teasty and Healthy Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, ex! Quidem sit sapiente ducimus asperiores explicabo debitis minima 
+                        repellat deleniti distinctio fuga. Eos incidunt aliquid minus deleniti fugiat obcaecati tenetur quaerat alias doloremque, sit nihil 
+                        exercitationem dolor earum distinctio quod illo impedit repellat molestias aperiam error aut dolorum? Eius, sed.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!---- Testimonials ---->
+        <section class="testimonials">
+
+            <h1>What our student says</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis officia rem facere fugiat vero rerum, culpa at. Assumenda, quae. 
+                Dolores doloribus deleniti ea commodi accusamus maxime nihil, necessitatibus adipisci nostrum.
+            </p>
+
+            <div class="row">
+
+                <div class="testimonial-colm">
+                    <img src="images/user1.jpg" alt="">
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sunt praesentium ratione magni 
+                            dolorum non repudiandae quidem harum debitis atque tempore sint, laboriosam minus architecto tenetur 
+                            blanditiis dignissimos dolore corporis aliquam officiis veritatis quae possimus ab expedita. Labore, provident architecto.
+                        </p>
+                        <h3>Christine Berkley</h3>
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="testimonial-colm">
+                    <img src="images/user2.jpg" alt="">
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sunt praesentium ratione magni 
+                            dolorum non repudiandae quidem harum debitis atque tempore sint, laboriosam minus architecto tenetur 
+                            blanditiis dignissimos dolore corporis aliquam officiis veritatis quae possimus ab expedita. Labore, provident architecto.
+                        </p>
+                        <h3>David Byer</h3>
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Call To Action -->
+        <section class="cta">
+
+            <h1>Enroll For Our Various Online Courses <br> Anywhere From The World.</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+
+        </section>
+
+
+        <!-- Footer -->
+        <section class="footer">
+
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Rem sapiente earum rerum veniam autem quas ea consectetur nihil? <br> Suscipit deserunt 
+                cupiditate tenetur nemo eligendi amet illo reprehenderit soluta obcaecati rem!
+            </p>
+            <div class="icons"> 
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Developed by <i class="fa fa-heart-o"></i> <b>Web Weverse</b> <i class="fa fa-heart-o"></i></p>
+
+        </section>
+
+        <!---- JavaScript for Toggle Menu  ---->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>
